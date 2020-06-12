@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aubrey</item>
+        <item>@font/brawler</item>
+        <item>@font/lilita_one</item>
+        <item>@font/montserrat</item>
+        <item>@font/ntr</item>
+        <item>@font/open_sans_light</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_bold</item>
+    </array>
+</resources>

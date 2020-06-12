@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:orientation="vertical"
+        tools:context=".Menu2Activity"
+        tools:ignore="ExtraText"
+        android:id="@+id/menu2">
+
+    <TextView
+        android:id="@+id/nextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:onClick="Nextmenufragment"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textColor="@color/NavyBlue"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/sc1">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/singer1"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="250dp"
+            android:background="@drawable/cover_macepet_cepetan" />
+
+                 <TextView
+                     android:id="@+id/yoursinger1"
+                     android:layout_width="180dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="205dp"
+                     android:text="Your Singer"
+                     android:textAlignment="textStart"
+                     />
+
+        <ImageView
+            android:id="@+id/singer2"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="250dp"
+            android:background="@drawable/cover_meong_meong"
+            android:layout_marginLeft="200dp"/>
+
+                <TextView
+                    android:id="@+id/yoursinger2"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="205dp"
+                    android:layout_marginLeft="200dp"
+                    android:text="Your Singer"
+                    android:textAlignment="textStart"
+                    />
+
+        <ImageView
+            android:id="@+id/singer3"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/cover_tresna_mejohan"/>
+
+                <TextView
+                    android:id="@+id/yoursinger3"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="440dp"
+                    android:text="Your Singer"
+                    android:textAlignment="textStart"
+                    />
+
+        <ImageView
+            android:id="@+id/singer4"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/cover_putri_cening_ayu"
+            android:layout_marginLeft="200dp"/>
+
+                <TextView
+                    android:id="@+id/yoursinger4"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="440dp"
+                    android:layout_marginLeft="200dp"
+                    android:text="Your Singer"
+                    android:textAlignment="textStart"
+                    />
+
+        <ImageView
+            android:id="@+id/singer5"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/cover_ratu_anom"/>
+
+                <TextView
+                    android:id="@+id/yoursinger5"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="655dp"
+                    android:text="Your Singer"
+                    android:textAlignment="textStart"
+                    />
+
+        <ImageView
+            android:id="@+id/singer6"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/cover_jangi_janger"
+            android:layout_marginLeft="200dp"/>
+
+                <TextView
+                    android:id="@+id/yoursinger6"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="655dp"
+                    android:layout_marginLeft="200dp"
+                    android:text="Your Singer"
+                    android:textAlignment="textStart"
+                    />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

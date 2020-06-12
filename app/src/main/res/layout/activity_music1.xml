@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Music2Activity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="350dp"
+        >
+        <ImageView
+            android:id="@+id/yourcovermusic"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/White"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="300dp">
+        <SeekBar
+            android:id="@+id/posisi"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:background="@color/White"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="300dp">
+
+        <TextView
+            android:id="@+id/waktumulai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:text="0.11"
+            android:textColor="@color/White"/>
+
+        <TextView
+            android:id="@id/waktusisa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:text="-1.49"
+            android:textColor="@color/White"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="150dp">
+
+        <Button
+            android:id="@+id/playbutton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/play"
+            android:onClick="playbutton"
+            android:layout_marginLeft="170dp"
+            />
+
+        <SeekBar
+            android:id="@+id/volumebar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:progress="70"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="55dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="450dp">
+
+        <Button
+            android:id="@+id/buttonlyric"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:onClick="showlyrics"
+            android:text="Lyrics" />
+
+        <Button
+            android:id="@+id/buttonyoutube"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="70dp"
+            android:onClick="onClick"
+            android:text="Youtube" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:name=".LyricsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="440dp"
+        android:id="@+id/fragmentlyric">
+    </FrameLayout>
+
+    <FrameLayout
+        android:name=".LyricsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="440dp"
+        android:id="@+id/fragmentlyric1">
+    </FrameLayout>
+
+    <FrameLayout
+        android:name=".LyricsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="440dp"
+        android:id="@+id/fragmentlyric3">
+    </FrameLayout>
+
+    <FrameLayout
+        android:name=".LyricsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="440dp"
+        android:id="@+id/fragmentlyric4">
+    </FrameLayout>
+
+    <FrameLayout
+        android:name=".LyricsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="440dp"
+        android:id="@+id/fragmentlyric5">
+    </FrameLayout>
+
+    <FrameLayout
+        android:name=".LyricsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="440dp"
+        android:id="@+id/fragmentlyric6">
+    </FrameLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

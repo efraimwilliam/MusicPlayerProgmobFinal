@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F4068</color>
+    <color name="colorPrimaryDark">#1F4068</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="NavyBlue">#162447</color>
+    <color name = "White">#FFFFFF</color>
+    <color name = "Pink">#E43F5A</color>
+    <color name="Link">#0000EE</color>
+</resources>

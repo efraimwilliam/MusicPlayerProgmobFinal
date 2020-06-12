@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="REGISTER YOUR APP NOW !"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textColor="@color/White"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginTop="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            >
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Yourname"
+                android:fontFamily="@font/montserrat"/>
+
+            <EditText
+                android:id="@+id/youremail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="160dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="80dp"
+                android:hint="Email"
+                android:fontFamily="@font/montserrat"/>
+
+            <EditText
+                android:id="@+id/yourpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="80dp"
+                android:hint="Password"
+                android:fontFamily="@font/montserrat"/>
+
+            <EditText
+                android:id="@+id/phonenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:layout_marginTop="320dp"
+                android:layout_marginLeft="80dp"
+                android:hint="Phone Number"
+                android:fontFamily="@font/montserrat"/>
+
+            <Button
+                android:id="@+id/buttonregister"
+                android:layout_width="390px"
+                android:layout_height="135px"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="120dp"
+                android:background="@color/Pink"
+                android:fontFamily="@font/montserrat"
+                android:text="Register"/>
+
+            <TextView
+                android:id="@+id/loginhere"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Already have accoutn? Login Here"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="500dp"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="180dp"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

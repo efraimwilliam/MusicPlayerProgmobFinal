@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tugasprogmob4">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".Youtube1Activity" />
+        <activity android:name=".Youtube2Activity" />
+        <activity android:name=".Youtube3Activity" />
+        <activity android:name=".Youtube4Activity" />
+        <activity android:name=".Youtube5Activity" />
+        <activity android:name=".Youtube6Activity" />
+        <activity
+            android:name=".Music2Activity"
+            android:parentActivityName=".Menu2Activity" />
+        <activity
+            android:name=".Music1Activity"
+            android:parentActivityName=".Menu2Activity" />
+        <activity
+            android:name=".Music3Activity"
+            android:parentActivityName=".Menu2Activity" />
+        <activity
+            android:name=".Music4Activity"
+            android:parentActivityName=".Menu2Activity" />
+        <activity
+            android:name=".Music5Activity"
+            android:parentActivityName=".Menu2Activity" />
+        <activity
+            android:name=".Music6Activity"
+            android:parentActivityName=".Menu2Activity" />
+        <activity
+            android:name=".Menu2Activity"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".ProfileActivity1"
+            android:parentActivityName=".Menu2Activity" />
+        <activity
+            android:name=".MenuActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".InfoActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
